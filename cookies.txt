@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.cimcoinc.net	TRUE	/	FALSE	1999999999	0a04f9a1f28e5074a367bc822e0f5593	926d179c7ee9d42e23905cc28cb3e14d
+.google.com	TRUE	/	FALSE	1999999999	NID	126=XTdIy26_BjdSJkE_WpMHG90aZTP0VLDgkHL84100FW4Ez_8TeZ-nLXwbXld4QXAfRYoelJr2FbbXg6Crwi8slJUYNnkD3_YNwc2rOpk9JdnkVg_xLJAU5oHtyoXLRgwT
+

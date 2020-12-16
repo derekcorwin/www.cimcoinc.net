@@ -1,0 +1,95 @@
+
+/**		COLOR	**/
+
+a, a:hover, .breadcrumb a:hover,
+.user7 .link a:hover, .user8 .link a:hover, .user9 .link a:hover {
+color : #ce534c;
+}
+
+
+/**
+*			ACCORDION MENU
+**/
+
+/** if parent active and children active  **/
+.submenu li.active li a:hover, .submenu li.active li.active li a:hover, .submenu li.active li.active li.active li a:hover,
+.submenu li.active li span.separator:hover, .submenu li.active li.active li span.separator:hover, .submenu li.active li.active li.active li span.separator:hover {
+color : #ce534c;
+}
+
+/** if active level 1 **/
+.submenu li.active a, .submenu li.active span.separator,
+.submenu li.active a:hover, .submenu li.active span.separator:hover {
+color : #ce534c;
+}
+
+/** if active level 2+ **/
+.submenu li.active li.active a, .submenu li.active li.active li.active a, .submenu li.active li.active li.active li.active a,
+.submenu li.active li.active span.separator, .submenu li.active li.active li.active span.separator, .submenu li.active li.active li.active li.active span.separator {
+color : #ce534c;
+}
+
+/** if hover level 1 **/
+.submenu li a:hover, .submenu li span.separator:hover, .submenu li li a:hover, .submenu li li li a:hover,
+.submenu li li span.separator:hover, .submenu li li li span.separator:hover {
+color : #ce534c;
+}
+
+/** if hover level 2+ **/
+.submenu li li a:hover, .submenu li li li a:hover,
+.submenu li li span.separator:hover, .submenu li li li span.separator:hover,
+.submenu li.active li a:hover, .submenu li.active li span.separator:hover {
+color : #ce534c;
+}
+
+/** 	TOP 		**/
+
+.top {
+border-bottom:4px solid #e05a57;
+}
+
+
+/**		MIDDLE SITE		**/
+
+.left_column {
+border-right:2px solid #e05a57;
+}
+
+/**		Modules 	**/
+
+.left_column .moduletable:hover h3, .right-module-position .moduletable:hover h3, .user1 .moduletable:hover h3, .user2 .moduletable:hover h3, .user3 .moduletable:hover h3, 
+.user4 .moduletable:hover h3, .user5 .moduletable:hover h3, .user6 .moduletable:hover h3 {
+border-color : #e05a57;
+}
+
+/** 	drop down menu 	**/
+
+/** if active level 2+ **/
+.dropdown li.active li.active a, .dropdown li.active li.active li.active a, .dropdown li.active li.active li.active li.active a,
+.dropdown li.active li.active span.separator, .dropdown li.active li.active li.active span.separator, .dropdown li.active li.active li.active li.active span.separator {
+background: rgb(224,90,87); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(224,90,87,1) 0%, rgba(206,83,76,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(224,90,87,1)), color-stop(100%,rgba(206,83,76,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(224,90,87,1) 0%,rgba(206,83,76,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(224,90,87,1) 0%,rgba(206,83,76,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(224,90,87,1) 0%,rgba(206,83,76,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(224,90,87,1) 0%,rgba(206,83,76,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e05a57', endColorstr='#ce534c',GradientType=0 ); /* IE6-9 */
+}
+
+/** if hover level 2+ **/
+.dropdown li li a:hover, .dropdown li li li a:hover,
+.dropdown li li span.separator:hover, .dropdown li li li span.separator:hover,
+.dropdown li.active li a:hover, .dropdown li.active li span.separator:hover,
+.dropdown li.active li.active li a:hover, .dropdown li.active li.active li span.separator:hover {
+background: rgb(224,90,87); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(224,90,87,1) 0%, rgba(206,83,76,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(224,90,87,1)), color-stop(100%,rgba(206,83,76,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(224,90,87,1) 0%,rgba(206,83,76,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(224,90,87,1) 0%,rgba(206,83,76,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(224,90,87,1) 0%,rgba(206,83,76,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(224,90,87,1) 0%,rgba(206,83,76,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e05a57', endColorstr='#ce534c',GradientType=0 ); /* IE6-9 */
+}
+
+

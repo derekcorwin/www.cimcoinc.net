@@ -1,0 +1,44 @@
+
+
+
+h2, h2 a, h2 a:hover {
+color : #006d98;
+}
+
+/**		FONT	**/
+
+h1, .componentheading, h2.contentheading, .blog-featured h2 {
+font-family: 'Open Sans:300', 'Open Sans';
+}
+
+.dropdown ul li a, .dropdown ul li span.separator {
+font-family: 'Open Sans:300', 'Open Sans';
+}
+
+.left_column h3, .right-module-position h3, .user1 h3, .user2 h3, .user3 h3, 
+.user4 h3, .user5 h3, .user6 h3 {
+font-family: 'Open Sans:300', 'Open Sans';
+}
+
+.submenu li a, .submenu li span.separator {
+font-family: 'Open Sans:300', 'Open Sans';
+}
+
+body {
+font-family: 'arial';
+}
+
+
+/**			Width 		**/
+
+.site, .bottom-site {
+width:980px;
+}
+
+.left_column {
+width:20%;
+}
+
+.right-module-position {
+width:20%;
+}

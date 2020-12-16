@@ -1,0 +1,462 @@
+/**	TOP MENU		**/
+
+.top_menu .moduletable {
+margin:0;
+}
+.top_menu li {
+margin:4px 0 0 5px ;
+padding:0;
+float:left;
+list-style : none;
+text-shadow : 0 1px 1px rgba(0,0,0, 0.1);
+}
+
+.top_menu li a, .top_menu li span.separator {
+text-decoration:none;
+text-transform: none;
+font-weight:normal;
+color: #999;
+color : rgba(0,0,0, 0.6);
+font-size:90%;
+padding: 5px 12px 4px 12px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-khtml-border-radius: 8px;
+border-radius: 8px;
+-webkit-transition : all 0.4s ease-in-out;
+-moz-transition : all 0.4s ease-in-out;
+-ms-transition : all 0.4s ease-in-out;
+-o-transition : all 0.4s ease-in-out;
+transition : all 0.4s ease-in-out;
+}
+
+.top_menu li.active a, .top_menu li:hover a, .top_menu li:focus a {
+color:#444;
+color : rgba(0,0,0, 0.85);
+background-color : #fff;
+-moz-box-shadow: 1px 1px 2px rgba(0,0,0, 0.4);
+-webkit-box-shadow: 1px 1px 2px rgba(0,0,0, 0.4);
+box-shadow: 1px 1px 2px rgba(0,0,0, 0.4);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+background-image : -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
+background-image : -moz-linear-gradient(0% 100% 90deg, #eee, #fff );
+background-image:     -ms-linear-gradient(top, #fff, #eee);
+background-image:     -o-linear-gradient(top, #fff, #eee);
+text-decoration: none;
+}
+
+
+/**
+*
+*				DROP DOWN MENU
+*
+**/
+
+
+.dropdown ul, .dropdown li, .dropdown ul ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.dropdown ul {
+position: relative;
+margin-left : 15px;
+z-index: 100;
+}
+
+.nav_main {
+position:relative;
+z-index:10;
+}
+
+.dropdown li {
+position:relative;
+float:left;
+margin-right:1px;
+vertical-align: middle;
+zoom: 1;
+z-index:1;
+}
+
+.dropdown li:hover, .dropdown li:focus {
+position: relative;
+z-index: 10;
+cursor: default;
+}
+
+.dropdown li ul {
+display : none ;
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 0;
+opacity:0;
+width: 160px;
+/**	change	**/
+background-color: #f3f3f3; /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.94) 0%, rgba(223,223,223,0.94) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.94)), color-stop(100%,rgba(223,223,223,0.94))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.94) 0%,rgba(223,223,223,0.94) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0.94) 0%,rgba(223,223,223,0.94) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0.94) 0%,rgba(223,223,223,0.94) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(255,255,255,0.94) 0%,rgba(223,223,223,0.94) 100%); /* W3C */
+-moz-border-radius: 0 0 8px 8px;
+-webkit-border-radius: 0 0 8px 8px;
+-o-border-radius: 0 0 8px 8px;
+border-radius:0 0 8px 8px;
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+padding: 0;
+-webkit-transition : all 0.3s ease-in;
+-moz-transition : all 0.3s ease-in;
+-ms-transition : all 0.3s ease-in;
+-o-transition : all 0.3s ease-in;
+transition : all 0.3s ease-in;
+}
+
+.dropdown li ul ul {
+top: 0px;
+left: 155px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-o-border-radius: 8px;
+border-radius:8px;
+}
+
+.dropdown li ul:hover {
+-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+.dropdown li li {
+float:none;
+margin-right:0px;
+width:100%;
+}
+
+.dropdown li a, .dropdown li span.separator {
+display : block;
+/**	change	**/
+color:#eee;
+padding: 1px 14px 0px 14px;
+text-transform: uppercase;
+letter-spacing: -0.5px;
+font-weight: normal;
+font-size:100%;
+line-height:39px;
+text-decoration: none;
+-webkit-transition : none ;
+-moz-transition : none ;
+-ms-transition : none ;
+-o-transition : none ;
+transition : none ;
+}
+
+.dropdown li li a, .dropdown li li span.separator {
+display : block;
+/**	change	**/
+color:#666;
+letter-spacing: 0px;
+font-size:100%;
+line-height:14px;
+text-transform:none;
+padding: 8px 10px 8px 10px;
+}
+
+.dropdown li li li:first-child > a, .dropdown li li li:first-child > span {
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+}
+
+.dropdown li li:last-child > a, .dropdown li li:first-child > span {
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+}
+
+.dropdown li:hover > ul, .dropdown li:focus > ul {
+display : block ;
+z-index:10;
+opacity:1;
+}
+
+.dropdown a[href="#"] {
+cursor : default;
+}
+
+.dropdown li.parent a::after , .dropdown li.parent span::after {
+content:">";
+color:#bbb;
+position:absolute;
+right:2px;
+top:2px;
+-moz-transform:rotate(90deg);
+-webkit-transform:rotate(90deg);
+-o-transform:rotate(90deg);
+-ms-transform:rotate(90deg);
+transform:rotate(90deg);
+}
+
+.dropdown li.parent li.parent a::after , .dropdown li.parent li.parent span::after,
+.dropdown li.parent li.parent li.parent a::after , .dropdown li.parent li.parent li.parent span::after {
+content:">";
+color:#999;
+position:absolute;
+right:5px;
+top:9px;
+-moz-transform:rotate(0deg);
+-webkit-transform:rotate(0deg);
+-o-transform:rotate(0deg);
+-ms-transform:rotate(0deg);
+transform:rotate(0deg);
+}
+
+.dropdown li.parent:hover a::after , .dropdown li.parent:hover span::after,
+.dropdown li.parent li.parent:hover a::after , .dropdown li.parent li.parent:hover span::after,
+.dropdown li.parent li.parent li.parent:hover a::after , .dropdown li.parent li.parent li.parent:hover span::after {
+color:#eee;
+}
+
+.dropdown li.parent li a::after , .dropdown li.parent li span::after,
+.dropdown li.parent li.parent li a::after , .dropdown li.parent li.parent li span::after,
+.dropdown li.parent li.parent li.parent li a::after , .dropdown li.parent li.parent li.parent li span::after {
+content:"";
+position:absolute;
+right:0px;
+transform:none;
+}
+
+.dropdown li:hover > a, .dropdown li:hover > span, .dropdown li.active > a, .dropdown li.active > span {
+background : transparent url(../images/gradient-menu.png) 0 0 repeat;
+}
+
+.dropdown li:hover > li a, .dropdown li:hover > li span, .dropdown li.active > li a, .dropdown li.active > li span,
+.dropdown li li:hover > a, .dropdown li li:hover > span, .dropdown li li.active > a, .dropdown li li.active > span {
+background-image : none;
+}
+
+/** if parent active and children active  **/
+.dropdown li.active li a:hover, .dropdown li.active li.active li a:hover, .dropdown li.active li.active li.active li a:hover,
+.dropdown li.active li span.separator:hover, .dropdown li.active li.active li span.separator:hover, .dropdown li.active li.active li.active li span.separator:hover {
+color: #000;
+}
+
+/** if active level 1 **/
+.dropdown li.active a, .dropdown li.active span.separator,
+.dropdown li.active a:hover, .dropdown li.active span.separator:hover {
+color: #fff;
+}
+
+/** if hover level 1 **/
+.dropdown li a:hover, .dropdown li span.separator:hover, .dropdown li li a:hover, .dropdown li li li a:hover,
+.dropdown li li span.separator:hover, .dropdown li li li span.separator:hover {
+color: #fff;
+}
+
+/** if active level 2+ **/
+.dropdown li.active li.active a, .dropdown li.active li.active li.active a, .dropdown li.active li.active li.active li.active a,
+.dropdown li.active li.active span.separator, .dropdown li.active li.active li.active span.separator, .dropdown li.active li.active li.active li.active span.separator {
+color: #fff;
+background: rgb(4,172,236); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(4,172,236,1) 0%, rgba(1,134,186,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(4,172,236,1)), color-stop(100%,rgba(1,134,186,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(4,172,236,1) 0%,rgba(1,134,186,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(4,172,236,1) 0%,rgba(1,134,186,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(4,172,236,1) 0%,rgba(1,134,186,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(4,172,236,1) 0%,rgba(1,134,186,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04acec', endColorstr='#0186ba',GradientType=0 ); /* IE6-9 */
+}
+
+/** if hover level 2+ **/
+.dropdown li li a:hover, .dropdown li li li a:hover,
+.dropdown li li span.separator:hover, .dropdown li li li span.separator:hover,
+.dropdown li.active li a:hover, .dropdown li.active li span.separator:hover,
+.dropdown li.active li.active li a:hover, .dropdown li.active li.active li span.separator:hover {
+color: #fff;
+background: rgb(4,172,236); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(4,172,236,1) 0%, rgba(1,134,186,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(4,172,236,1)), color-stop(100%,rgba(1,134,186,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(4,172,236,1) 0%,rgba(1,134,186,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(4,172,236,1) 0%,rgba(1,134,186,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(4,172,236,1) 0%,rgba(1,134,186,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(4,172,236,1) 0%,rgba(1,134,186,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04acec', endColorstr='#0186ba',GradientType=0 ); /* IE6-9 */
+}
+
+
+/** if children **/
+.dropdown li a, .dropdown li li a, .dropdown li li li a, .dropdown li li li li a {
+}
+
+/** if parent active and children no active **/
+.dropdown li.active li a, .dropdown li.active li.active li a, .dropdown li.active li.active li.active li a, .dropdown li.active li.active li.active li.active li a,
+.dropdown li.active li span.separator, .dropdown li.active li.active li span.separator, .dropdown li.active li.active li.active li span.separator,  .dropdown li.active li.active li.active li.active li span.separator {
+color:#666;
+background-color : transparent;
+background-image : none;
+}
+
+
+
+
+
+/**
+*
+*			ACCORDION MENU
+*
+**/
+
+
+.submenu ul, .submenu ul li, .submenu ul ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.submenu li {
+display:block;
+vertical-align: middle;
+border:none;
+margin:0 0 7px 0;
+zoom: 1;
+}
+
+.submenu li a, .submenu li span.separator {
+display : block;
+position : relative;
+/**	change	**/
+color:#67655E;
+padding: 10px 10px 8px 3%;
+text-transform: uppercase;
+letter-spacing: -0.5px;
+font-weight: normal;
+font-size:100%;
+text-decoration: none;
+-webkit-transition : all 0.3s ease-in;
+-moz-transition : all 0.3s ease-in;
+-ms-transition : all 0.3s ease-in;
+-o-transition : all 0.3s ease-in;
+transition : all 0.3s ease-in;
+z-index:10;
+}
+
+.submenu ul ul {
+margin: 0 0 0 4px;
+}
+.submenu li li {
+margin: 0;
+}
+
+.submenu li li a, .submenu li li span.separator,
+.submenu li.active li a, .submenu li.active li span.separator {
+font-size:100%;
+text-transform: none;
+color:#666;
+background: transparent url(../images/puce-link.png) 5px 15px no-repeat;
+padding-left:16px;
+margin-left: 0;
+}
+
+
+/** if parent active and children active  **/
+.submenu li.active li a:hover, .submenu li.active li.active li a:hover, .submenu li.active li.active li.active li a:hover,
+.submenu li.active li span.separator:hover, .submenu li.active li.active li span.separator:hover, .submenu li.active li.active li.active li span.separator:hover {
+color: #99cc66;
+}
+
+/** if active level 1 **/
+.submenu li.active a, .submenu li.active span.separator,
+.submenu li.active a:hover, .submenu li.active span.separator:hover {
+color: #99cc66;
+}
+
+/** if active level 2+ **/
+.submenu li.active li.active a, .submenu li.active li.active li.active a, .submenu li.active li.active li.active li.active a,
+.submenu li.active li.active span.separator, .submenu li.active li.active li.active span.separator, .submenu li.active li.active li.active li.active span.separator {
+color: #99CC66;
+}
+
+/** if hover level 1 **/
+.submenu li a:hover, .submenu li span.separator:hover, .submenu li li a:hover, .submenu li li li a:hover,
+.submenu li li span.separator:hover, .submenu li li li span.separator:hover {
+color: #99CC66;
+}
+
+/** if hover level 2+ **/
+.submenu li li a:hover, .submenu li li li a:hover,
+.submenu li li span.separator:hover, .submenu li li li span.separator:hover,
+.submenu li.active li a:hover, .submenu li.active li span.separator:hover {
+color: #99CC66;
+}
+
+.submenu ul ul ul {
+margin: 0 0 0 20px;
+}
+.submenu li li li a, .submenu li li li span.separator, .submenu li.active li li a, .submenu li.active li li span.separator,
+.submenu li.active li.active li a, .submenu li.active li.active li span.separator {
+font-size:95%;
+text-transform: none;
+font-weight: normal;
+color:#777;
+text-indent:0;
+background-image :none;
+border:none;
+}
+
+.submenu li li li a:hover, .submenu li li li span.separator:hover, .submenu li.active li.active li.active a, .submenu li.active li.active li.active span.separator {
+color:#000;
+background-image: none;
+border:none;
+}
+
+
+/**	BOTTOM MENU		**/
+.bottom_menu {
+display:block;
+list-style: none;
+}
+
+.bottom_menu li {
+margin:4px 0 0 5px ;
+padding:0;
+float:left;
+position:relative;
+list-style : none;
+text-shadow : 0 1px 1px rgba(0,0,0, 0.1);
+}
+
+.bottom_menu li a, #bottom_menu li span.separator {
+text-decoration:none;
+text-transform: none;
+font-weight:normal;
+color: #777;
+color : rgba(0,0,0, 0.4);
+font-size:90%;
+padding: 5px 12px 4px 12px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-khtml-border-radius: 8px;
+border-radius: 8px;
+-webkit-transition : all 0.4s ease-in-out;
+-moz-transition : all 0.4s ease-in-out;
+-ms-transition : all 0.4s ease-in-out;
+-o-transition : all 0.4s ease-in-out;
+transition : all 0.4s ease-in-out;
+}
+
+.bottom_menu li.active a, .bottom_menu li:hover a, .bottom_menu li:focus a {
+color:#444;
+color : rgba(0,0,0, 0.85);
+background-color : #fff;
+-moz-box-shadow: 1px 1px 2px rgba(0,0,0, 0.4);
+-webkit-box-shadow: 1px 1px 2px rgba(0,0,0, 0.4);
+box-shadow: 1px 1px 2px rgba(0,0,0, 0.4);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+background-image : -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
+background-image : -moz-linear-gradient(0% 100% 90deg, #eee, #fff );
+background-image:  -ms-linear-gradient(top, #fff, #eee);
+background-image:  -o-linear-gradient(top, #fff, #eee);
+text-decoration: none;
+}
